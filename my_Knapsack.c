@@ -6,9 +6,11 @@
 int main(){
 
 char items[MAX_ITEM][MAX_S_LEN];
-int values[MAX_ITEM] = {0};
-int weights[MAX_ITEM] = {0};
-int selected_bool[MAX_ITEM] = {0};
+int values[MAX_ITEM];
+int weights[MAX_ITEM];
+int selected_bool[MAX_ITEM];
+
+
 
 for(int i = 0; i < MAX_ITEM ; i++){
     scanf("%s %d %d ", items[i], &values[i], &weights[i]);
@@ -24,11 +26,9 @@ for(int i = 0 ; i < MAX_ITEM ; i++){
        printf(" %s", items[i]);
     }
 }
-printf("\n");
 
 
 return 0;
 }
-
 
 
