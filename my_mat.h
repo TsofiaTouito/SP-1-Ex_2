@@ -1,5 +1,5 @@
-#ifndef _MY_MAT_H
-#define _MY_MAT_H
+#ifndef MY_MAT_H
+#define MY_MAT_H
 
 #define SIZE 10
 #define TRUE 1
